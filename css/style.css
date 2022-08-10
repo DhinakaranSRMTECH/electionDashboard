@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 ,p , a ,span , div {
+    font-family: 'Lato', sans-serif !important;
+}
+.subscribe-btn a {
+    color: #fff!important;
+}
+.logo_fed{
+    max-width: 100%;
+    height: 35px;
+}
+.progressBar {
+    display: block;
+    width: 100%;
+    min-width: 100px;
+    height: auto;
+    position:relative;
+    padding: 0 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.leftSideParty {
+    background-color: #FF8B07;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 20px;
+}
+
+.rightSideParty {
+    background-color: #017139;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 20px;
+}
+.mid-point{
+    color: #FFFFFF;
+    display: inline-block;
+    border: 2px solid;
+    position: absolute;
+    top: 29px;
+    right: 50%;
+    height: 20px;
+    background: #FFFFFF;
+}
+.title-section h3{
+    color: #707070;
+    font-weight: 600;
+    font-size: 35px !important;
+    margin-bottom: 15px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.title-section h5{
+    color: #3DB953;
+    font-weight: 500;
+    font-size: 25px !important;
+}
+.title-section p{
+    font-weight: 500;
+}
+.placeholder_img{
+    width: 75px;
+    height: 75px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+}
+.can_votes{
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: -18px;
+left: 12rem;
+}
+.can_name{
+    font-size: 20px;
+    position: absolute;
+    left: 22rem;
+    /* top: 10px; */
+    top: -8px;
+color: #FF8B07;font-weight: 500;
+margin-left:20px;
+}
+.midText{
+    font-size: 20px;
+    position: absolute;
+    left: 54rem;
+    top: -8px;
+    font-weight: 500;
+}
+.vote_perc{
+    font-size: 20px;
+    position: absolute;
+    top: 55px;
+font-weight: 500;
+}
+.total_vote{
+    font-size: 20px;
+    position: absolute;
+    left: 37rem;
+    top: 55px;
+font-weight: 500;
+margin-left: 20px;;
+}
+.progress_wrapper{
+    position: relative;
+    top: 29px;
+}
+.placeholder_img_right{
+    width: 75px;
+    height: 75px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.can_votes_r{
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: -17px;
+    right: 43rem;
+}
+.can_name_r{
+    font-size: 20px;
+    position: absolute;
+    right: 21rem;
+    top: -8px;
+color: #FF8B07;font-weight: 500;
+}
+.vote_perc_r{
+    font-size: 20px;
+    position: absolute;
+    top: 55px;
+    right: 36rem;
+font-weight: 500;
+}
+.total_vote_r{
+    font-size: 20px;
+    position: absolute;
+    right: 20rem;
+    top: 55px;
+font-weight: 500;
+}
+.flex_right{
+    flex-direction: row-reverse;
+}
+.wid_pro{
+    position: relative;
+    top: -45px;
+    width: 80%;
+    left: 94px;
+}
+.hr_line{
+    border-top: 5px solid #646161;
+}
+.Ybtn{
+    background-color: #e0e0e0;
+    border: 1px solid #EFEFEF;
+    padding: 5px 61px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0;
+    outline: none !important;
+}
+.Ybtn:hover{
+    background-color: #FBC896;
+    border-color: #FBC896;
+    color:#fff;
+}
+.flex_around{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:30px;
+}
+.stFilter{
+    margin-bottom:30px;
+}
+.btnActive{
+    background-color: #FBC896;
+    border-color: #FBC896;
+    color:#fff;
+}
+.select2Cont {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.select2Cont .select2-container--default .select2-selection--single .select2-selection__rendered  {
+    color: #3DB953 ;
+    line-height: 34px ;
+    font-size: 28px ;
+    font-weight: 600;
+}
+.select2Cont .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.select2Cont .select2-container .select2-selection--single{
+    height: 38px;
+
+}
+.select2Cont .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-width: 8px 10px 0 10px;
+    border-color: #ef0000 transparent transparent transparent;
+}
+.select2Cont .select2-container--default .select2-selection--single .select2-selection__arrow{
+    position: absolute;
+    top: 3.5px;
+    right: 5px;
+}
+.stFilter {
+    visibility:hidden;
+}
+.vis-hidd {
+    visibility: hidden;
+}
+.split-2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 10px;
+}
+.assembly-map .upmap{
+    position: relative;
+    bottom: 126px;
+    right: 30px;
+}
+.up-map2017 {
+    width: 100%;
+    min-width: 380px;
+    height: 250px;
+}
+.padd_0{
+    padding-right: 0;
+}
+.avatar {
+    position: relative;
+    width: 125px;
+    height: 125px;
+}
+.avatarText{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 37%;
+    top: 30px;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+.right-cand_img{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    justify-content: space-evenly;
+}
+.avatarText p{
+    margin:0;
+}
+.avatarText div{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% !important;
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+.const-box p{
+    margin: 0;
+   
+}
+.avFT p{
+    color:#fff !important;
+}
+.won-cand-img p{
+    color: #C0003D;
+}
+.won-cand-img{
+    margin: 20px 0;
+}
+.candName, .trailingcandName{
+    color:#b5b0b2 !important
+}
+.bd_s{
+    border-bottom: 1px solid;
+}
+.seatshare h4{
+    margin: 20px 0;
+}
+.seatshare .graphic{
+    margin-bottom: 10px;
+}
+.candName, .trailingcandName{
+    text-align: center;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.right-cand_img p{
+    font-size: 13px;
+}
+.text-center{
+    text-align: center;
+}
+.grid_temp{
+    display: grid;
+    grid-template-columns: 16% 40% 44%;
+    grid-gap: 15px;
+}
+.geo-data{
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid;
+}
+.mediaImg{
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.media{
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#up2017-Religon .label{
+    display: none;
+}
+.relg_indi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hindu .relgi_round{
+    background-color: #187ABF;
+}
+.muslim .relgi_round{
+    background-color: #5DB88A;
+}
+.christ .relgi_round{
+    background-color: #F5A06F;
+}
+.otherRel .relgi_round{
+    background-color: #E94B82;
+}
+.relFlex{
+    display: flex;
+    align-items: center;
+}
+.relgi_round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.flex_end{
+    display: flex;
+    justify-content: end;
+}
+.nutsellH{
+    text-align: center;
+}
+.flex_end div{
+    margin-right: 20px;
+    
+}
+.flex_end div:last-child{
+    margin-right: 0px;
+}
+.top_value{
+    color: #d5d1d1;
+    font-family: 'Signika Negative', sans-serif !important;
+    font-size: 25px;
+}
+.b_categ{
+    color: #d5d1d1;
+    color: #adacac;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    width:135px;
+}
+.nutsellH h6{
+    position: relative;
+    right: 7%;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.left-map h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.middleMap h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+.middleMap p{
+    padding-bottom:25px;
+}
+.map_img_cont{
+    text-align: center;
+    padding: 0 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.img_map_col{
+    height: 70px;
+    margin: 5px 0;
+}
+@media screen and (min-width:1200px){
+    .container {
+        width: 1300px !important;
+    }
+}
+@media screen and (min-width: 1000px){
+    .const-filter {
+        position: unset;
+        /* top: 25px !important;*/
+        width: auto !important;  
+    }
+}
